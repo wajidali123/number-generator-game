@@ -2,17 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="254440ca-972b-4a97-a63e-1bf704313aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/ConsoleNumberGuess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GuessCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MaxNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/GameConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/resources/config/game.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/target/classes/config/game.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/org/johnpc/ConsoleNumberGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/ConsoleNumberGuess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/main/java/org/johnpc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/classes/org/johnpc/ConsoleNumberGuess.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/org/johnpc/ConsoleNumberGuess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/target/classes/org/johnpc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/org/johnpc/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GameImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/GameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/GameConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/GameImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/MessageGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGeneratorImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/config/GameConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/config/GameConfig.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +128,8 @@
       <option name="presentableId" value="Default" />
       <updated>1602871374196</updated>
       <workItem from="1602871389315" duration="4605000" />
-      <workItem from="1602905683661" duration="11816000" />
+      <workItem from="1602905683661" duration="13654000" />
+      <workItem from="1602925956290" duration="1653000" />
     </task>
     <task id="LOCAL-00001" summary="Setter based DI added">
       <created>1602878188698</created>
@@ -139,7 +149,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -154,7 +166,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java</url>
-          <line>33</line>
+          <line>36</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

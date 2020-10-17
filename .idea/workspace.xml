@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="254440ca-972b-4a97-a63e-1bf704313aa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/resources/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/beans.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/GameImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGeneratorImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -41,6 +46,7 @@
   <component name="ProjectId" id="1iyELEPb36GCJouZYUSqpATaAR4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/resources" />
@@ -71,7 +77,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.johnpc.Main" />
-      <module name="core" />
+      <module name="console" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.johnpc.*" />
@@ -88,6 +94,16 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -99,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602871374196</updated>
       <workItem from="1602871389315" duration="4605000" />
-      <workItem from="1602905683661" duration="2682000" />
+      <workItem from="1602905683661" duration="7152000" />
     </task>
     <task id="LOCAL-00001" summary="Setter based DI added">
       <created>1602878188698</created>
@@ -128,5 +144,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setter based DI added" />
     <option name="LAST_COMMIT_MESSAGE" value="Setter based DI added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

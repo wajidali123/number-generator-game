@@ -8,7 +8,6 @@ import java.util.Random;
  * @Created By JohnPC
  */
 
-@Component
 public class NumberGeneratorImpl implements NumberGenerator {
 
     // == fields ==

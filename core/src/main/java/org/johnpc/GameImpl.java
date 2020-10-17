@@ -12,7 +12,6 @@ import javax.annotation.PreDestroy;
  * @Created By JohnPC
  */
 
-@Component
 public class GameImpl implements Game {
 
     // == constants ==
@@ -35,7 +34,7 @@ public class GameImpl implements Game {
     public void reset() {
         smallest = 0;
         guess = 0;
-        remainingGuesses = 0;
+        remainingGuesses = guessCount;
         biggest = numberGenerator.getMaxNumber();
         number = numberGenerator.next();
         log.info("The Number is {}", number);

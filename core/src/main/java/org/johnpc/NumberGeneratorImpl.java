@@ -1,5 +1,6 @@
 package org.johnpc;
 
+import lombok.Getter;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
@@ -11,8 +12,10 @@ import java.util.Random;
 @Component
 public class NumberGeneratorImpl implements NumberGenerator {
 
+    @Getter
     private final int maxNumber;
 
+    @Getter
     private final int minNumber;
 
 
@@ -30,15 +33,5 @@ public class NumberGeneratorImpl implements NumberGenerator {
     public int next() {
 
         return random.nextInt(maxNumber - minNumber) + minNumber;
-    }
-
-    @Override
-    public int getMaxNumber() {
-        return maxNumber;
-    }
-
-    @Override
-    public int getMinNumber() {
-        return minNumber;
     }
 }

@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="254440ca-972b-4a97-a63e-1bf704313aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MinNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/resources/config/game.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/target/classes/config/game.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/main/java/org/johnpc/ConsoleNumberGuess.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/ConsoleNumberGuess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/src/main/java/org/johnpc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/console/target/classes/org/johnpc/ConsoleNumberGuess.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/org/johnpc/ConsoleNumberGuess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/console/target/classes/org/johnpc/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/console/target/classes/org/johnpc/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GameImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/AppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/GameConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/GameConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/GameImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/MessageGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/MessageGeneratorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGeneratorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/config/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/config/GameConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/config/GameConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -73,6 +64,7 @@
     <option name="myCommands">
       <command value="mvn clean install" />
       <command value="mvn clean" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -129,7 +121,7 @@
       <updated>1602871374196</updated>
       <workItem from="1602871389315" duration="4605000" />
       <workItem from="1602905683661" duration="13654000" />
-      <workItem from="1602925956290" duration="1653000" />
+      <workItem from="1602925956290" duration="4158000" />
     </task>
     <task id="LOCAL-00001" summary="Setter based DI added">
       <created>1602878188698</created>
@@ -138,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602878188698</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Code clean up-- final commit">
+      <created>1602927722399</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602927722399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,14 +158,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setter based DI added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setter based DI added" />
+    <MESSAGE value="Code clean up-- final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code clean up-- final commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java</url>
-          <line>36</line>
+          <line>35</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

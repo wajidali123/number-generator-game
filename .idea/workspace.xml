@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="254440ca-972b-4a97-a63e-1bf704313aa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/ConsoleNumberGuess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GuessCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MaxNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/GameConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/java/org/johnpc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GameImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/GameImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/java/org/johnpc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/MessageGeneratorImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/org/johnpc/NumberGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/GameImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/GameImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGeneratorImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/target/classes/org/johnpc/NumberGeneratorImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,11 +20,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -51,8 +50,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/core/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.johnpc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\JohnPC\IdeaProjects\Maven-Course\guess-the-number-game\core\src\main\resources" />
     </key>
@@ -60,6 +63,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
+      <command value="mvn clean" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -80,7 +84,7 @@
       <module name="console" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.johnpc.*" />
+          <option name="PATTERN" value="org.johnpc.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602871374196</updated>
       <workItem from="1602871389315" duration="4605000" />
-      <workItem from="1602905683661" duration="7152000" />
+      <workItem from="1602905683661" duration="11816000" />
     </task>
     <task id="LOCAL-00001" summary="Setter based DI added">
       <created>1602878188698</created>

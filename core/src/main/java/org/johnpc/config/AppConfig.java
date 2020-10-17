@@ -1,14 +1,17 @@
-package org.johnpc;
+package org.johnpc.config;
 
+import org.johnpc.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 /**
  * @Created By JohnPC
  */
 
 @Configuration
+@Import(GameConfig.class)
 @ComponentScan(basePackages = "org.johnpc")
 public class AppConfig {
 

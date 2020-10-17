@@ -1,6 +1,6 @@
 package org.johnpc;
 
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Random;
 
@@ -10,9 +10,11 @@ import java.util.Random;
 
 public class NumberGeneratorImpl implements NumberGenerator {
 
+    @Autowired
+    @MaxNumber
+    private int maxNumber;
     // == fields ==
     private final Random random = new Random();
-    private int maxNumber = 100;
 
     // == Public Methods
     @Override

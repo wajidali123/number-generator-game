@@ -21,7 +21,7 @@ public class Main {
                 = new ClassPathXmlApplicationContext(CONFIG_LOCATION);
 
         // Get the game bean from context
-        NumberGenerator numberGenerator = context.getBean("numberGenerator", NumberGenerator.class);
+        NumberGenerator numberGenerator = context.getBean(NumberGenerator.class);
 
         int number = numberGenerator.next();
         log.info("number = {}", number);
